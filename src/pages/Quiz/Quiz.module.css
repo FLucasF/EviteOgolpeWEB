@@ -22,11 +22,14 @@
   align-items: center;
   text-align: center;
   padding: 20px;
+  width: 100%;
   max-width: 700px;
-  height: 750px;
+  max-height: 100vh;
   background-color: var(--second-bg-color);
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  transform: translateY(-20px); /* Move o conteúdo ligeiramente para cima */
 }
 
 .title {
@@ -92,3 +95,10 @@
     padding: 8px 16px; 
   }
 }
+
+@media (max-height: 600px) {
+  .content {
+    flex-grow: 1; /* Garante que o conteúdo se ajuste conforme o espaço disponível */
+  }
+}
+
