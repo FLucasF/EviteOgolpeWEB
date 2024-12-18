@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #0a4b75; /* Definindo cores no root para facilidade de uso */
+  --bg-color: #0a4b75;
   --fontColorAzul: #007bff;
   --fontColorAmarelo: #ffd700;
   --fontColorBranco: #ffffff;
@@ -10,7 +10,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--f, #f0f0f0); /* Fallback default caso var(--f) não esteja definido */
+  background: var(--f, #f0f0f0);
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   position: relative;
