@@ -90,23 +90,23 @@ padding-bottom: 2rem;
   }
 
   .buttonContainer {
-    padding-bottom: 0.5rem; /* Menor espaço abaixo do container de botão */
-    
+    padding-bottom: 0.5rem;
+
   }
 
   .buttonContainer button {
-    width: 20%; /* Aumenta a largura dos botões para melhor acessibilidade */
+    width: 20%;
     height: 2rem;
-    font-size: 0.8rem; /* Reduz o tamanho da fonte para adaptação em telas menores */
+    font-size: 0.8rem;
   }
 
   .buttonContainer button:hover {
-    background-color: var(--colorYellowHover); /* Mantém a cor de hover */
+    background-color: var(--colorYellowHover);
   }
 
   .noStyleLink {
-    width: 50%; /* Aumenta a largura do link para melhor acessibilidade */
+    width: 50%;
     height: 2rem;
-    font-size: 0.8rem; /* Reduz o tamanho da fonte para adaptação em telas menores */
+    font-size: 0.8rem;
   }
 }
